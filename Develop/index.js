@@ -1,8 +1,26 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// const generateREADME = ({ name, location, github, linkedin }) =>
- 
+const generateReadme = ({ title, description, installation, usage, guidelines, testInstructions }) => 
+  `#{title}
+
+  // ## Description
+
+  // ## Table of Contents
+  
+  // ## Installation
+  
+  // ## Usage
+  
+  // ## License
+  
+  // ## Contributing
+
+  // ## Tests
+  
+  // ## Questions
+
+  // ';
 
 inquirer
   .prompt([
@@ -37,10 +55,11 @@ inquirer
       message: 'Enter test instructions.',
     },
   ])
-//   .then((answers) => {
-//     const htmlPageContent = generateHTML(answers);
 
-//     fs.writeFile('index.html', htmlPageContent, (err) =>
-//       err ? console.log(err) : console.log('Successfully created index.html!')
-//     );
-//   });
+  .then((answers) => {
+    const readmePageContent = generateReadme(answers);
+
+    fs.writeFile('readme.md', readmePageContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created README!')
+    );
+  });
