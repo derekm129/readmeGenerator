@@ -3,9 +3,8 @@ const fs = require('fs');
 // import build-in path module
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
-// Questions
-inquirer
-  .prompt([
+// Questions for user
+let questions = [
     {
       type: 'input',
       name: 'title',
@@ -38,10 +37,15 @@ inquirer
     },
   ])
 
-  .then((answers) => {
-    const readmePageContent = generateReadme(answers);
+  // Write README.md file
+ function writeToFile(filename,data) {
+  return fs.writeFileSync(path.join(process.cwd(), filename), data)
+ }
 
-    fs.writeFile('readme.md', readmePageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created README!')
-    );
-  });
+//  InitializeApp
+function inir() {
+  inquirer.createPromptModule(questions).then(responses) => {
+    console.log("Creating README file...");
+    writeToFile
+  }
+}
