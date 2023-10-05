@@ -35,7 +35,7 @@ let questions = [
       name: 'testInstructions',
       message: 'Enter test instructions.',
     },
-  ])
+  ];
 
   // Write README.md file
  function writeToFile(filename,data) {
@@ -43,9 +43,9 @@ let questions = [
  }
 
 //  InitializeApp
-function inir() {
-  inquirer.createPromptModule(questions).then(responses) => {
+function init() {
+  inquirer.createPromptModule(questions).then((responses) => {
     console.log("Creating README file...");
-    writeToFile
-  }
-}
+    writeToFile("./dist/README.md", generateMarkdown({responses}));
+  });
+};
