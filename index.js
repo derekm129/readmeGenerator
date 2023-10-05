@@ -1,27 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
-const generateReadme = ({ title, description, installation, usage, guidelines, testInstructions }) => 
-  `#{title}
-
-  // ## Description
-
-  // ## Table of Contents
-  
-  // ## Installation
-  
-  // ## Usage
-  
-  // ## License
-  
-  // ## Contributing
-
-  // ## Tests
-  
-  // ## Questions
-
-  // ';
-
+// import build-in path module
+const path = require("path");
+const generateMarkdown = require("./utils/generateMarkdown");
+// Questions
 inquirer
   .prompt([
     {
