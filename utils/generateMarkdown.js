@@ -18,3 +18,5 @@ function generateMarkdown(data) {
     ${data.tests}
     `;
 }
+
+module.exports = {generateMarkdown};
