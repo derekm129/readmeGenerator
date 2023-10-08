@@ -1,6 +1,6 @@
 function generateMarkdown(data) {
-    return 
-    `# ${data.title}
+    // Generates markdown content
+    return `# ${data.title}
     
     ## Description
     ${data.description}
@@ -16,7 +16,7 @@ function generateMarkdown(data) {
 
     ## Tests
     ${data.tests}
-    `;
+    `
 }
 
 module.exports = {generateMarkdown};
