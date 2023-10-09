@@ -34,6 +34,29 @@ const questions = [
       name: 'testInstructions',
       message: 'Enter test instructions.',
     },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your github username?',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?',
+    },
+
+    {
+      type: 'input',
+      name: 'badges',
+      message: 'What badges, if any, does your project have? Press ENTER to skip.',
+    },
+
+    {
+      type: 'list',
+      name: 'license',
+      message: 'What license does your project have?',
+      choices: ["MIT", "APACHE2.0", "GPLv3", "None"]
+    },
   ];
 
   // Write README.md file
