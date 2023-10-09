@@ -1,8 +1,8 @@
-# y
+# My Project
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
     
 ## Description
-h
+Some detailed description.
 
 ## Table of Contents
 
@@ -16,26 +16,26 @@ h
 - *[Questions](#questions)
 
 ## Installation
-a
+Detailed installation instructions.
 
 ## Usage
-g
+Use to create README files.
 
 ## License
 MIT
 
 ## Badges
-t
+Badge1, Badge2, Badge3
 
 ## Contribution
-h
+Person1, Person2, Person3
 
 ## Tests
-j
+Test with npm test
 
 ## Questions
 If you have any questions, you can contact me at:
 
-Github: https://github.com/r
-Email: w
+Github: https://github.com/derekm129
+Email: email@gmail.com
     
