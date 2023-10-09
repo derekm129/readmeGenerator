@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
     
 ## Description
-A detailed desription.
+A detailed description.
 
 ## Table of Contents
 
@@ -16,10 +16,10 @@ A detailed desription.
 - *[Questions](#questions)
 
 ## Installation
-Have node.js and inquirer@8.2.4 installed
+Have Node.js and Inquirer version 8.2.4 installed.
 
 ## Usage
-Use to generate professional README
+Use to generate a professional README file.
 
 ## License
 MIT
@@ -31,7 +31,7 @@ Badge1, Badge2, Badge3
 Person1, Person2, Person3
 
 ## Tests
-npm test
+Enter 'npm test' in terminal.
 
 ## Questions
 If you have any questions, you can contact me at:
