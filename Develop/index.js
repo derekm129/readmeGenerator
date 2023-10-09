@@ -31,7 +31,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'testsde index.js',
+      name: 'tests',
       message: 'Enter test instructions.',
     },
     {

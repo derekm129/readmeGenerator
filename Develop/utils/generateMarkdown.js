@@ -1,6 +1,22 @@
+function getLicenseBadgeUrl(license) {
+    switch (license) {
+        case 'MIT':
+            return 'https://img.shields.io/badge/License-MIT-yellow.svg';
+        case 'APACHE2.0':
+            return 'https://img.shields.io/badge/License-Apache_2.0-blue.svg';
+        case 'GPLv3':
+            return 'https://img.shields.io/badge/License-LGPL_v3-blue.svg';
+        default:
+            return '';
+    }
+}
+
+// Generates markdown content
 function generateMarkdown(data) {
-    // Generates markdown content
+    const licenseBadgeUrl = getLicenseBadgeUrl(data.license);
+
     return `# ${data.title}
+![License](${licenseBadgeUrl})
     
 ## Description
 ${data.description}
@@ -29,7 +45,7 @@ ${data.license}
 ${data.badges}
 
 ## Contribution
-${data.contributi}
+${data.contribution}
 
 ## Tests
 ${data.tests}
