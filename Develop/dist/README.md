@@ -1,8 +1,8 @@
-# y
+# My Project
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
     
 ## Description
-h
+A detailed desription.
 
 ## Table of Contents
 
@@ -16,26 +16,26 @@ h
 - *[Questions](#questions)
 
 ## Installation
-a
+Have node.js and inquirer@8.2.4 installed
 
 ## Usage
-g
+Use to generate professional README
 
 ## License
 MIT
 
 ## Badges
-t
+Badge1, Badge2, Badge3
 
 ## Contribution
-h
+Person1, Person2, Person3
 
 ## Tests
-j
+npm test
 
 ## Questions
 If you have any questions, you can contact me at:
 
-Github: https://github.com/r
-Email: w
+Github: https://github.com/derekm129
+Email: email@gmail.com
     
