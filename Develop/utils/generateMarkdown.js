@@ -5,6 +5,17 @@ function generateMarkdown(data) {
 ## Description
 ${data.description}
 
+## Table of Contents
+
+- *[Description](#description)
+- *[Installation](#installation)
+- *[Usage](#usage)
+- *[License](#license)
+- *[Badges](#badges)
+- *[Contribution](#contribution)
+- *[Tests](#tests)
+- *[Questions](#questions)
+
 ## Installation
 ${data.installation}
 
@@ -17,8 +28,8 @@ ${data.license}
 ## Badges
 ${data.badges}
 
-## How to Contribute
-${data.guidelines}
+## Contribution
+${data.contributi}
 
 ## Tests
 ${data.tests}

@@ -26,12 +26,12 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'guidelines',
-      message: 'Enter contribution guidelines.',
+      name: 'contribution',
+      message: 'Enter contribution details.',
     },
     {
       type: 'input',
-      name: 'testInstructions',
+      name: 'testsde index.js',
       message: 'Enter test instructions.',
     },
     {
