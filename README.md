@@ -9,7 +9,7 @@
 ## Installation
 - This application needs Node.js and Inquirer version 8.2.4 to work correctly.
 ## Usage
-- Enter 'node index.js' in terminal to start the program. Answers questions from the prompt to generate a professional README file.
+- Enter 'node index.js' in terminal to start the program. Answers questions from the prompt to generate a professional README file. Generated file will appear in 'dist' folder.
 
 ![Screenshot](./Develop/assets/images/screenshot.png)
 
