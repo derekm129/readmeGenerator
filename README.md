@@ -14,8 +14,7 @@
 ![Screenshot](./Develop/assets/images/screenshot.png)
 
 
-- Video Demonstration:
-- https://drive.google.com/file/d/1TdKV1SEJxlnsmN0qsiFqaQwzBnyO58Ap/view
+- Video Demonstration: https://drive.google.com/file/d/1TdKV1SEJxlnsmN0qsiFqaQwzBnyO58Ap/view
 
 ## Credits
 N/A
