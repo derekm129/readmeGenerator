@@ -4,7 +4,7 @@
 -This project is an application that can generate Professional README files based off of user input.
 I built this project using JavaScript, Node.js, and Inquirer version 8.2.4.
 This app streamlines the process of creating README files.
-I learned from making this application how to use multiple JS files in a project and the uses of Node.js and Inquirer.
+I learned from making this application how to use multiple Javascript files in a project, and how to use Node.js and Inquirer.
 
 ## Installation
 - This application needs Node.js and Inquirer version 8.2.4 to work correctly.
