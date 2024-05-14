@@ -1,15 +1,15 @@
 # Professional README Generator
 
 ## Description
--This project is an application that can generate Professional README files based off of user input.
-I built this project using JavaScript, Node.js, and Inquirer version 8.2.4.
-This app streamlines the process of creating README files.
-I learned from making this application how to use multiple Javascript files in a project, and how to use Node.js and Inquirer.
+-This application is designed to streamline the creation of professional README files based on user input. 
+Developed using JavaScript, Node.js, and Inquirer version 8.2.4, this application simplifies the process of creating README files. 
+Through this project, I gained valuable experience in structuring JavaScript projects with multiple files, as well as mastering the usage of Node.js and Inquirer.
 
 ## Installation
-- This application needs Node.js and Inquirer version 8.2.4 to work correctly.
+- Ensure you have Node.js and Inquirer version 8.2.4 installed to utilize this application.
+  
 ## Usage
-- Git clone the code. Select index.js and enter 'node index.js' in terminal to start the program. Answers questions from the prompt to generate a professional README file. Generated file will appear in 'dist' folder.
+- To begin using the application, clone the repository and navigate to the index.js file. Run 'node index.js' in your terminal to launch the program. Follow the prompted questions to input the necessary information and generate a professional README file. The generated file will be located in the 'dist' folder.
 
 ![Screenshot](./Develop/assets/images/screenshot.png)
 
@@ -17,7 +17,7 @@ I learned from making this application how to use multiple Javascript files in a
 - Video Demonstration: https://drive.google.com/file/d/1TdKV1SEJxlnsmN0qsiFqaQwzBnyO58Ap/view
 
 ## Credits
-N/A
+This project was independently developed.
 
 ## License
 N/A
